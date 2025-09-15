@@ -1,0 +1,122 @@
+
+
+.fa-brands{
+    font-size: 16px;
+    width:24px;
+    height: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+
+.fa-instagram{
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+.fa-linkedin-in{
+    background: #0077b5;
+    color: white;
+}
+
+.fa-github{
+    background-color: #24292e;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 100px 50px;
+    width: 100%;
+    gap: 40px;
+}
+.footer1 p {
+    color: rgb(80, 77, 77);
+}
+
+.footer1 p span{
+    padding: 10px;
+    color: white;
+}
+
+.footer1 h1{
+    width: 40%;
+    font-size: 5rem;
+    color: white;
+    line-height: 4rem;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    flex-wrap: wrap;
+}
+
+.footer2 .socialItem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.footer2 .socialItem .footerlink{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+@media (max-width:1000px)
+{
+    
+    .footer1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        padding: 50px 25px;
+        width: 100%;
+        gap: 40px;
+    }
+    
+    .footer1 p span{
+        color: white;
+    }
+
+    .footer1 h1{
+        width: 100%;
+        font-size: 3rem;
+        color: white;
+        line-height: 2rem;
+    }
+}
+@media (max-width:550px)
+{   .footer1{
+    flex-direction: column-reverse;
+    text-align: center;
+    }
+    .footer1 h1{
+        width: 100%;
+        font-size: 2rem;
+        color: white;
+        line-height: 1.8rem;
+    }
+
+    .footer1 h1, .footer1 p{
+        width: 100%;
+    }
+}  
